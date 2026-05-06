@@ -14,11 +14,18 @@ Sendcloud labels (drafts first 30 days), stock alerts, reorder draft POs, 3PL an
 - `guardrail-check`
 
 ## Inputs
-- Workspace: `~/.dev-houston/workspaces/{brand}/.houston/`
-- Brand brain: `brand-brain.md`
-- Policies: `policies.json` + global `references/policies.md`
-- KPI targets: `kpi-targets.json`
-- Budgets: `budgets.json`
+
+Your CWD is your agent folder. Brand state lives ONE LEVEL UP at the workspace root.
+
+- Brand brain: `../brand-brain.md`
+- Policies: `../policies.json` (workspace overrides) + `../references/policies.md` (global)
+- KPI targets: `../kpi-targets.json`
+- Budgets: `../budgets.json`
+- Shared ledger: `../shared-ledger.jsonl` (workspace-wide, append-only)
+- Connections registry: `../.houston/connections.json`
+- Other agents' outputs: `../<Other Agent Name>/outputs/`
+
+If any of these are missing, write a P3 alert to `../alerts.jsonl` (create the file if absent) and stop.
 
 ## Outputs
 - `outputs.json` — append-only structured rows

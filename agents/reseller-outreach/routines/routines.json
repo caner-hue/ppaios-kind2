@@ -6,6 +6,8 @@
     "prompt": "Run a daily readiness check for Reseller Outreach. Read brand-brain.md, policies.json, latest kpi-snapshot. Append a row to outputs.json with status=\"ready\" or status=\"blocked\" + reason. Stay under 150 tokens.",
     "schedule": "0 7 * * *",
     "enabled": false,
-    "suppress_when_silent": true
+    "suppress_when_silent": true,
+    "created_at": "2026-05-06T22:13:40.189Z",
+    "updated_at": "2026-05-06T22:13:40.189Z"
   }
 ]

@@ -6,7 +6,9 @@
     "prompt": "Run the weekly-report skill. Cover every active brand workspace under ~/.dev-houston/workspaces/. Send via Gmail and iMessage one-liner.",
     "schedule": "0 8 * * 1",
     "enabled": true,
-    "suppress_when_silent": false
+    "suppress_when_silent": false,
+    "created_at": "2026-05-06T22:00:00Z",
+    "updated_at": "2026-05-06T22:00:00Z"
   },
   {
     "id": "friday-audit",
@@ -15,7 +17,9 @@
     "prompt": "Run the audit skill workspace-wide. Then run level-up on the top gap. Send Caner an iMessage with the headline finding.",
     "schedule": "0 17 * * 5",
     "enabled": true,
-    "suppress_when_silent": false
+    "suppress_when_silent": false,
+    "created_at": "2026-05-06T22:00:00Z",
+    "updated_at": "2026-05-06T22:00:00Z"
   },
   {
     "id": "daily-alerts-sweep",
@@ -24,6 +28,8 @@
     "prompt": "Sweep alerts.jsonl across all brand workspaces. For any P1 alert opened in the last 24h that hasn't been acknowledged, iMessage Caner with the alert and the proposed action. Append your sweep to shared-ledger.jsonl.",
     "schedule": "0 9 * * *",
     "enabled": true,
-    "suppress_when_silent": true
+    "suppress_when_silent": true,
+    "created_at": "2026-05-06T22:00:00Z",
+    "updated_at": "2026-05-06T22:00:00Z"
   }
 ]

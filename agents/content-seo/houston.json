@@ -1,6 +1,6 @@
 {
   "id": "content-seo",
-  "name": "Content/SEO Operator",
+  "name": "Content + SEO Operator",
   "description": "Blog posts, programmatic SEO, schema, internal linking. Drafts to /blog/draft/*; live publish gated.",
   "icon": "PenLine",
   "category": "business",

@@ -1,6 +1,6 @@
 {
   "id": "email-sms",
-  "name": "Email/SMS Operator",
+  "name": "Email + SMS Operator",
   "description": "Klaviyo flows + campaigns. Segments, A/B subjects, post-send recap. Broadcasts >5k go through guardrail.",
   "icon": "Mail",
   "category": "business",

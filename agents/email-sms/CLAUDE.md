@@ -1,4 +1,4 @@
-# Email/SMS Operator
+# Email + SMS Operator
 
 Klaviyo flows + campaigns. Segments, A/B subjects, post-send recap. Broadcasts >5k go through guardrail.
 

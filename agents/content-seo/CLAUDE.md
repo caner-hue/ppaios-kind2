@@ -1,4 +1,4 @@
-# Content/SEO Operator
+# Content + SEO Operator
 
 Blog posts, programmatic SEO, schema, internal linking. Drafts to /blog/draft/*; live publish gated.
 

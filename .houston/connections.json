@@ -1,19 +1,31 @@
 {
   "brand": "kind2",
-  "connections": [
-    { "name": "shopify", "status": "pending", "ref": "ppaios/references/shopify-admin-api.md", "env": ["SHOPIFY_STORE", "SHOPIFY_ADMIN_TOKEN"] },
-    { "name": "klaviyo", "status": "wired", "ref": "ppaios/references/klaviyo-api.md", "env": ["KLAVIYO_API_KEY"], "mcp": "https://mcp.klaviyo.com/mcp" },
-    { "name": "ga4", "status": "pending", "ref": "ppaios/references/ga4-api.md", "env": ["GA4_PROPERTY_ID", "GA4_SA_KEY_PATH"] },
-    { "name": "stripe_ro", "status": "pending", "ref": "ppaios/references/stripe-api.md", "env": ["STRIPE_API_KEY_RO"] },
-    { "name": "notion", "status": "pending", "ref": "ppaios/references/notion-api.md", "env": ["NOTION_TOKEN"] },
-    { "name": "fireflies", "status": "pending", "ref": "ppaios/references/fireflies-api.md", "env": ["FIREFLIES_API_KEY"] },
-    { "name": "sendcloud", "status": "pending", "ref": "ppaios/references/sendcloud-api.md", "env": ["SENDCLOUD_PUBLIC_KEY", "SENDCLOUD_SECRET_KEY"] },
-    { "name": "meta_marketing", "status": "phase_4", "ref": "ppaios/references/meta-marketing-api.md", "env": ["META_AD_ACCOUNT_ID", "META_SYSTEM_USER_TOKEN"] },
+  "auth_strategy": "hybrid",
+  "notes": "Composio handles agent-facing tools (Houston UI). API-direct via .env for boring crons + scoping-sensitive surfaces.",
+  "via_composio": [
+    { "name": "github",          "status": "wired", "agent_use": ["all (repo ops)"] },
+    { "name": "gmail",           "status": "wired", "agent_use": ["customer-service", "director", "creator-manager", "reseller-outreach"] },
+    { "name": "google-ads",      "status": "wired", "agent_use": ["paid-ads", "analytics"] },
+    { "name": "google-analytics","status": "wired", "agent_use": ["analytics", "site-cro", "paid-ads", "director"] },
+    { "name": "google-calendar", "status": "wired", "agent_use": ["director", "creator-manager"] },
+    { "name": "google-drive",    "status": "wired", "agent_use": ["content-seo", "director", "creator-manager"] },
+    { "name": "klaviyo",         "status": "wired", "agent_use": ["email-sms", "analytics"] },
+    { "name": "notion",          "status": "wired", "agent_use": ["director", "creator-manager", "reseller-outreach", "content-seo", "customer-service"] },
+    { "name": "shopify",         "status": "wired", "agent_use": ["site-cro", "content-seo", "customer-service", "email-sms", "analytics", "logistics"] }
+  ],
+  "via_api_direct": [
+    { "name": "stripe_ro",  "status": "pending", "ref": "ppaios/references/stripe-api.md", "env": ["STRIPE_API_KEY_RO"], "reason": "Restricted key gives stricter scoping than Composio's broader OAuth" },
+    { "name": "sendcloud",  "status": "pending", "ref": "ppaios/references/sendcloud-api.md", "env": ["SENDCLOUD_PUBLIC_KEY", "SENDCLOUD_SECRET_KEY"], "reason": "No Composio integration; webhooks need our own endpoint" },
+    { "name": "fireflies",  "status": "pending", "ref": "ppaios/references/fireflies-api.md", "env": ["FIREFLIES_API_KEY"], "reason": "GraphQL pulls from boring cron" },
+    { "name": "meta_ads",   "status": "phase_4", "ref": "ppaios/references/meta-marketing-api.md", "env": ["META_AD_ACCOUNT_ID", "META_SYSTEM_USER_TOKEN"], "reason": "System User token is more stable for autonomous spend" },
     { "name": "tiktok_ads", "status": "phase_4", "env": ["TIKTOK_AD_ACCOUNT_ID", "TIKTOK_TOKEN"] },
-    { "name": "google_ads", "status": "phase_4", "env": ["GOOGLE_ADS_CUSTOMER_ID", "GOOGLE_ADS_TOKEN"] },
     { "name": "amazon_ads", "status": "phase_5", "env": ["AMZ_ADS_PROFILE_ID", "AMZ_ADS_TOKEN"] },
-    { "name": "amazon_sp_api", "status": "phase_5", "env": ["AMZ_SP_REFRESH_TOKEN"] },
-    { "name": "gmail", "status": "wired", "mcp": "gmail-kind2", "ref": "ppaios/references/gws-cli.md" },
-    { "name": "imessage", "status": "wired", "mcp": "Read_and_Send_iMessages" }
-  ]
+    { "name": "amazon_sp",  "status": "phase_5", "env": ["AMZ_SP_REFRESH_TOKEN"] }
+  ],
+  "anthropic": {
+    "status": "pending",
+    "env": ["ANTHROPIC_API_KEY"],
+    "note": "Houston needs this to run Claude sessions. Single key for Phase 1; per-agent keys later for cost telemetry."
+  },
+  "kill_switch_path": "$HOME/.dev-houston/KILL_SWITCH"
 }

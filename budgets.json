@@ -1,0 +1,35 @@
+{
+  "brand": "kind2",
+  "currency": "GBP",
+  "phase_4_entry": {
+    "daily_total_paid_cap": 20,
+    "channels": {
+      "meta": { "daily_cap": 12, "campaign_launch_max_daily": 6 },
+      "tiktok": { "daily_cap": 4, "campaign_launch_max_daily": 4 },
+      "google": { "daily_cap": 4, "campaign_launch_max_daily": 4 },
+      "amazon_ppc": { "daily_cap": 0, "campaign_launch_max_daily": 0 }
+    },
+    "budget_increase_max_pct_per_day": 20,
+    "kill_switch_breach": "pause_all_paid_for_24h"
+  },
+  "phase_5_entry_amazon": {
+    "amazon_daily_cap": 10,
+    "scaling_rule": "Director approval required to raise"
+  },
+  "send_caps": {
+    "email_broadcast_max_recipients_auto": 5000,
+    "sms_broadcast_max_recipients_auto": 0,
+    "outreach_emails_per_day_per_sender_auto": 50
+  },
+  "discount_caps": {
+    "max_discount_pct_auto": 15,
+    "max_discount_pct_with_approval": 30
+  },
+  "refund_caps": {
+    "max_refund_gbp_existing_customer_auto": 50,
+    "max_refund_gbp_new_customer_auto": 0
+  },
+  "token_cap": {
+    "max_anthropic_spend_gbp_per_week": 200
+  }
+}

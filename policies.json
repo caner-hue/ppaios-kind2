@@ -1,0 +1,30 @@
+{
+  "brand": "kind2",
+  "extends": "ppaios/references/policies.md",
+  "overrides": {
+    "publish_gates": {
+      "shopify_theme_live_publish": "always_gated",
+      "blog_live_publish": "always_gated",
+      "product_create": "always_gated",
+      "product_price_change": "always_gated",
+      "amazon_listing_submit": "always_gated"
+    },
+    "customer_service": {
+      "phase_0_30_days": "drafts_only",
+      "after_30_days_allowlist": [
+        { "kind": "refund", "max_gbp": 50, "customer_status": "existing" },
+        { "kind": "return_label", "max_gbp": 50, "customer_status": "existing" },
+        { "kind": "wismo_reply", "with_tracking_link_only": true }
+      ]
+    },
+    "outreach": {
+      "from_address": "hi@out.purposefulprofits.co",
+      "warmup_required_weeks": 4,
+      "max_per_day": 50
+    },
+    "logistics": {
+      "sendcloud_label_create_phase_5_30_days": "drafted_only",
+      "sendcloud_cancel_shipment": "always_gated"
+    }
+  }
+}

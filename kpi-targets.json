@@ -1,0 +1,18 @@
+{
+  "brand": "kind2",
+  "currency": "GBP",
+  "phase_0_baseline": true,
+  "targets": {
+    "site_cvr_pct": { "target": 2.5, "floor": 1.8 },
+    "aov_gbp": { "target": 65, "floor": 55 },
+    "blended_cac_gbp": { "target": 22, "ceiling": 28 },
+    "meta_roas": { "target": 2.5, "floor": 1.8 },
+    "tiktok_roas": { "target": 2.0, "floor": 1.4 },
+    "google_roas": { "target": 3.0, "floor": 2.2 },
+    "amazon_acos_pct": { "target": 25, "ceiling": 35 },
+    "email_revenue_share_pct": { "target": 30, "floor": 22 },
+    "cs_first_response_hours": { "target": 8, "ceiling": 24 },
+    "review_rating": { "target": 4.7, "floor": 4.5 }
+  },
+  "notes": "Targets are placeholders for Phase 0. Director updates after first 14 days of clean data."
+}

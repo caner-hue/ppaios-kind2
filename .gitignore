@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.DS_Store
+node_modules/
+*.log
+.houston/kpi-snapshots/
+.houston/outputs.json
+.houston/alerts.jsonl
+KILL_SWITCH

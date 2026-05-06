@@ -1,0 +1,11 @@
+[
+  {
+    "id": "creative-daily-readyness",
+    "name": "Creative Producer daily readiness",
+    "description": "Boring cron: read inputs, refresh state, write a tiny readiness log.",
+    "prompt": "Run a daily readiness check for Creative Producer. Read brand-brain.md, policies.json, latest kpi-snapshot. Append a row to outputs.json with status=\"ready\" or status=\"blocked\" + reason. Stay under 150 tokens.",
+    "schedule": "0 7 * * *",
+    "enabled": false,
+    "suppress_when_silent": true
+  }
+]

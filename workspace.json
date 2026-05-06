@@ -1,0 +1,21 @@
+{
+  "name": "PPAIOS — KIND2",
+  "description": "Purposeful Profits AI Operating System for KIND2. 14 agents covering paid ads, email/SMS, site CRO, content/SEO, creative, analytics, customer service, social media, creator manager, reseller outreach, Amazon PPC + catalogue, finance reporter, logistics + inventory. Director orchestrates. £20/day paid cap, drafts-only CS for first 30 days.",
+  "agents": [
+    "director",
+    "paid-ads",
+    "email-sms",
+    "site-cro",
+    "content-seo",
+    "creative",
+    "analytics",
+    "customer-service",
+    "social-media",
+    "creator-manager",
+    "reseller-outreach",
+    "amazon-ppc",
+    "amazon-catalogue",
+    "finance-reporter",
+    "logistics-inventory"
+  ]
+}

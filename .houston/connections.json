@@ -14,7 +14,7 @@
     { "name": "shopify",         "status": "wired", "agent_use": ["site-cro", "content-seo", "customer-service", "email-sms", "analytics", "logistics"] }
   ],
   "via_api_direct": [
-    { "name": "stripe_ro",  "status": "pending", "ref": "ppaios/references/stripe-api.md", "env": ["STRIPE_API_KEY_RO"], "reason": "Restricted key gives stricter scoping than Composio's broader OAuth" },
+    { "name": "stripe_ro",  "status": "skipped", "reason": "KIND2 takes all payments via Shopify; Stripe not needed. Revisit if KIND2 adds non-Shopify revenue." },
     { "name": "sendcloud",  "status": "pending", "ref": "ppaios/references/sendcloud-api.md", "env": ["SENDCLOUD_PUBLIC_KEY", "SENDCLOUD_SECRET_KEY"], "reason": "No Composio integration; webhooks need our own endpoint" },
     { "name": "fireflies",  "status": "pending", "ref": "ppaios/references/fireflies-api.md", "env": ["FIREFLIES_API_KEY"], "reason": "GraphQL pulls from boring cron" },
     { "name": "meta_ads",   "status": "phase_4", "ref": "ppaios/references/meta-marketing-api.md", "env": ["META_AD_ACCOUNT_ID", "META_SYSTEM_USER_TOKEN"], "reason": "System User token is more stable for autonomous spend" },

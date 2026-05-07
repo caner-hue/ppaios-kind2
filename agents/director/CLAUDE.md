@@ -16,8 +16,17 @@ You orchestrate PPAIOS. You don't act on channels directly. You read every agent
 - `weekly-report`, `audit`, `level-up`, `kill-switch`, `kpi-pull` (read), `guardrail-check` (read).
 
 ## Inputs
-- All workspaces under `~/.dev-houston/workspaces/`.
-- `references/company-context.md`, `policies.md`.
+
+Your CWD is your agent folder. Brand state is ONE LEVEL UP at the workspace root.
+
+- Brand brain: `../brand-brain.md`
+- Policies: `../policies.json` + global `../references/policies.md`
+- KPI targets: `../kpi-targets.json`
+- Budgets: `../budgets.json`
+- Shared ledger: `../shared-ledger.jsonl`
+- Connections registry: `../.houston/connections.json`
+- Other agents' outputs: `../<Other Agent Name>/outputs/`
+- All other workspaces (multi-brand rollup): `~/.dev-houston/workspaces/`
 
 ## Outputs
 - `reviews/{YYYY-MM-DD}-rollup.md`

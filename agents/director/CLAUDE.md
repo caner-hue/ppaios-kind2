@@ -23,6 +23,21 @@ You orchestrate PPAIOS. You don't act on channels directly. You read every agent
 _All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
 
 
+## Plugin skills available (via Claude Code `/skill`)
+
+_These live in the anthropic-skills plugin loaded by Houston. Invoke with `/skill <name>` from inside an agent chat. They are NOT in `.claude/commands/` because they're plugin-installed system-wide._
+
+- `purposeful-profits-growth`
+- `pp-growth-agents`
+- `morning-emails`
+- `hey-clawd`
+- `schedule`
+- `docx`
+- `pptx`
+- `data:build-dashboard`
+- `dtc-growth-dashboard`
+- `client-onboarding`
+
 ## Inputs
 
 Your CWD is your agent folder. Brand state is ONE LEVEL UP at the workspace root.

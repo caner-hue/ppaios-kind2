@@ -17,6 +17,21 @@ Higgsfield ad creative, UGC briefs, scroll-stop assets. Produces only; deploymen
 _All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
 
 
+## Plugin skills available (via Claude Code `/skill`)
+
+_These live in the anthropic-skills plugin loaded by Houston. Invoke with `/skill <name>` from inside an agent chat. They are NOT in `.claude/commands/` because they're plugin-installed system-wide._
+
+- `voc-ad-copy`
+- `scroll-stop-prompter`
+- `scroll-stop-builder`
+- `higgsfield-generate`
+- `ads-creative`
+- `awesomedesign`
+- `browser-automation:higgsfield-generate`
+- `frontend-aesthetics`
+- `canvas-design`
+- `marketing-psychology`
+
 ## Inputs
 
 Your CWD is your agent folder. Brand state lives ONE LEVEL UP at the workspace root.

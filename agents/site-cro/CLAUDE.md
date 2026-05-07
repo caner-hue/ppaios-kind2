@@ -18,6 +18,19 @@ Shopify theme branches, A/B tests, page builds, conversion fixes. Live publishes
 _All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
 
 
+## Plugin skills available (via Claude Code `/skill`)
+
+_These live in the anthropic-skills plugin loaded by Houston. Invoke with `/skill <name>` from inside an agent chat. They are NOT in `.claude/commands/` because they're plugin-installed system-wide._
+
+- `page-cro`
+- `awesomedesign`
+- `frontend-aesthetics`
+- `animejs`
+- `liquid-glass-design`
+- `playwright-cli`
+- `browser-automation:cro-audit`
+- `browser-automation:screenshot`
+
 ## Inputs
 
 Your CWD is your agent folder. Brand state lives ONE LEVEL UP at the workspace root.

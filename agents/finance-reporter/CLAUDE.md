@@ -27,6 +27,15 @@ If/when KIND2 takes payments outside Shopify, propose adding Stripe; until then,
 _All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
 
 
+## Plugin skills available (via Claude Code `/skill`)
+
+_These live in the anthropic-skills plugin loaded by Houston. Invoke with `/skill <name>` from inside an agent chat. They are NOT in `.claude/commands/` because they're plugin-installed system-wide._
+
+- `data:analyze`
+- `data:build-dashboard`
+- `xlsx`
+- `docx`
+
 ## Inputs
 
 Your CWD is your agent folder. Brand state lives ONE LEVEL UP at the workspace root.

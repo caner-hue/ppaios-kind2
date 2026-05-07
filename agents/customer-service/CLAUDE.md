@@ -21,6 +21,17 @@ Inbox triage, drafted replies, refunds, returns, escalations. Drafts only first 
 _All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
 
 
+## Plugin skills available (via Claude Code `/skill`)
+
+_These live in the anthropic-skills plugin loaded by Houston. Invoke with `/skill <name>` from inside an agent chat. They are NOT in `.claude/commands/` because they're plugin-installed system-wide._
+
+- `customer-support:triage`
+- `customer-support:response-drafting`
+- `customer-support:knowledge-management`
+- `customer-support:escalation`
+- `customer-support:customer-research`
+- `pdf`
+
 ## Inputs
 
 Your CWD is your agent folder. Brand state lives ONE LEVEL UP at the workspace root.

@@ -17,6 +17,15 @@ Listings, A+ content, BSR monitoring, review monitoring, Brand Registry actions.
 _All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
 
 
+## Plugin skills available (via Claude Code `/skill`)
+
+_These live in the anthropic-skills plugin loaded by Houston. Invoke with `/skill <name>` from inside an agent chat. They are NOT in `.claude/commands/` because they're plugin-installed system-wide._
+
+- `datadive`
+- `voc-ad-copy`
+- `awesomedesign`
+- `canvas-design`
+
 ## Inputs
 
 Your CWD is your agent folder. Brand state lives ONE LEVEL UP at the workspace root.

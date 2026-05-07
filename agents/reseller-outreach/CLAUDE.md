@@ -17,6 +17,18 @@ Wholesale prospect list build, personalised outreach from out.purposefulprofits.
 _All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
 
 
+## Plugin skills available (via Claude Code `/skill`)
+
+_These live in the anthropic-skills plugin loaded by Houston. Invoke with `/skill <name>` from inside an agent chat. They are NOT in `.claude/commands/` because they're plugin-installed system-wide._
+
+- `sales:account-research`
+- `sales:draft-outreach`
+- `sales:competitive-intelligence`
+- `sales:call-prep`
+- `sales:create-an-asset`
+- `cloudflare-crawl`
+- `marketing:competitive-analysis`
+
 ## Inputs
 
 Your CWD is your agent folder. Brand state lives ONE LEVEL UP at the workspace root.

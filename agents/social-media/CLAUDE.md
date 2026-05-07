@@ -19,6 +19,16 @@ Organic content calendar across IG/TikTok/X/LinkedIn. Scheduled queue auto; live
 _All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
 
 
+## Plugin skills available (via Claude Code `/skill`)
+
+_These live in the anthropic-skills plugin loaded by Houston. Invoke with `/skill <name>` from inside an agent chat. They are NOT in `.claude/commands/` because they're plugin-installed system-wide._
+
+- `marketing:content-creation`
+- `marketing:brand-voice`
+- `marketing-psychology`
+- `voc-ad-copy`
+- `browser-automation:browser-automation`
+
 ## Inputs
 
 Your CWD is your agent folder. Brand state lives ONE LEVEL UP at the workspace root.

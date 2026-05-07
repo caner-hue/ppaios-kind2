@@ -19,6 +19,16 @@ Klaviyo flows + campaigns. Segments, A/B subjects, post-send recap. Broadcasts >
 _All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
 
 
+## Plugin skills available (via Claude Code `/skill`)
+
+_These live in the anthropic-skills plugin loaded by Houston. Invoke with `/skill <name>` from inside an agent chat. They are NOT in `.claude/commands/` because they're plugin-installed system-wide._
+
+- `marketing:campaign-planning`
+- `marketing:content-creation`
+- `marketing:brand-voice`
+- `marketing-psychology`
+- `voc-ad-copy`
+
 ## Inputs
 
 Your CWD is your agent folder. Brand state lives ONE LEVEL UP at the workspace root.

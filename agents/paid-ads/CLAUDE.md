@@ -21,6 +21,17 @@ Run Meta/TikTok/Google/Amazon ads inside the daily £20 cap. Tests creatives. Pa
 _All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
 
 
+## Plugin skills available (via Claude Code `/skill`)
+
+_These live in the anthropic-skills plugin loaded by Houston. Invoke with `/skill <name>` from inside an agent chat. They are NOT in `.claude/commands/` because they're plugin-installed system-wide._
+
+- `ads-creative`
+- `ads-tiktok`
+- `marketing-psychology`
+- `marketing:campaign-planning`
+- `marketing:performance-analytics`
+- `data:analyze`
+
 ## Inputs
 
 Your CWD is your agent folder. Brand state lives ONE LEVEL UP at the workspace root.

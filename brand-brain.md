@@ -55,14 +55,18 @@ Banned: hype, white-room beauty-counter speak, gendered patronising ("ladies", "
 
 ## 1. KIND2
 
-- **Status:** active
+- **Status:** active ✅
 - **Tier:** owned (PP-owned brand)
-- **Started:** 2026-05-06
+- **Started:** 2026-05-06 (PPAIOS) · brand operates ongoing
 - **Window:** 90-day Phase 1 → £15k MRR target
-- **Scope:** Full DTC operation. Email/SMS revival, CRO, content, paid ads (day 30+), Amazon (day 60+), creator/reseller pipeline, customer service.
-- **Invoicing:** N/A — owned brand. P&L tracked directly via Finance Reporter.
-- **Stakeholders:** Caner (operator). PP-side: KIND2 workspace Director.
-- **Tools:** Shopify (kind2.myshopify.com via Composio), Klaviyo (4,666 subs), GA4 (`properties/290221861`), Meta Ads (`act_274969793143990`), Sendcloud (3PL).
-- **Open questions:** none — see `GROWTH-PLAN-KIND2-10X.md`.
+- **Scope:** Full DTC operation (Email/SMS revival, CRO, content, paid ads day 30+, Amazon day 60+, creator/reseller pipeline, customer service)
+- **Invoicing:** N/A — owned brand. P&L tracked via Finance Reporter.
+- **Stakeholders:** Caner (operator)
+- **Tools:** Shopify (`kind2.myshopify.com`), Klaviyo (4,666 subs), GA4 `properties/290221861`, Meta Ads `act_274969793143990`, Sendcloud
+- **Recent activity** (per `crm://kind2 status_update` 2026-05-06):
+  - Unity Works fulfilment: REC08001 OOS across orders 8764/8768/8770 → swapped to FRC03001
+  - Brigantia invoice 1344 received £356.22 due 14 Jun
+  - Stripe payout £51.89 inbound; 3 Shopify Capital UK debits initiated
+  - Boost Awards May/Jun deadline list received
 
 ---

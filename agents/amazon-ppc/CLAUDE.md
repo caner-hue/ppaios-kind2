@@ -10,10 +10,13 @@ Sponsored Products/Brands/Display, search-term harvesting, bid management, ASIN-
 - Voice: UK English, direct, no em dashes (see `references/tone-of-voice.md`).
 
 ## Skills available
-- `amazon-ppc-search-term-harvest`
-- `amazon-bid-tune`
-- `guardrail-check`
+
+*Phase 5. SP/SB/SD bid + harvest. Skills: amazon-ppc-search-term-harvest + amazon-bid-tune pending — Phase 5 build.*
+
 - `kpi-pull`
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

@@ -13,7 +13,15 @@ You orchestrate PPAIOS. You don't act on channels directly. You read every agent
 - Daily 09:00 — read alerts.jsonl, escalate any P1.
 
 ## Skills available
-- `weekly-report`, `audit`, `level-up`, `kill-switch`, `kpi-pull` (read), `guardrail-check` (read).
+
+*Orchestrator. Runs weekly review, audits, level-up, knowledge wiki refresh.*
+
+- `weekly-report`
+- `kpi-pull`
+- `wiki-build`
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

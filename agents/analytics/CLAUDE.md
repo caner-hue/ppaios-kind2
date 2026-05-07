@@ -10,9 +10,14 @@ Read-only. Daily anomaly detection. Weekly KPI report. Raises P1 alerts on CAC b
 - Voice: UK English, direct, no em dashes (see `references/tone-of-voice.md`).
 
 ## Skills available
+
+*Read-only. Daily anomaly detection. Weekly KPI report. Raises P1 alerts on CAC breach.*
+
 - `kpi-pull`
 - `weekly-report`
-- `audit`
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

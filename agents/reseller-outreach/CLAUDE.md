@@ -10,10 +10,12 @@ Wholesale prospect list build, personalised outreach from out.purposefulprofits.
 - Voice: UK English, direct, no em dashes (see `references/tone-of-voice.md`).
 
 ## Skills available
-- `reseller-prospect-list`
-- `reseller-outreach`
-- `reseller-followup`
-- `guardrail-check`
+
+*PP CRM + Gmail outreach from out.purposefulprofits.co. Skills: reseller-prospect-list + reseller-outreach + reseller-followup pending — uses Gmail + Notion Composio directly for now.*
+
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

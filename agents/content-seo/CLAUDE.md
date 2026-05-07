@@ -10,10 +10,15 @@ Blog posts, programmatic SEO, schema, internal linking. Drafts to /blog/draft/*;
 - Voice: UK English, direct, no em dashes (see `references/tone-of-voice.md`).
 
 ## Skills available
+
+*Drafts to /blog/draft/*. Live publish always gated.*
+
 - `blog-post`
-- `youtube-resource-guide`
 - `seo-audit`
-- `brand-voice-check`
+- `kpi-pull`
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

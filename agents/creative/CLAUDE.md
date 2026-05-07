@@ -10,10 +10,12 @@ Higgsfield ad creative, UGC briefs, scroll-stop assets. Produces only; deploymen
 - Voice: UK English, direct, no em dashes (see `references/tone-of-voice.md`).
 
 ## Skills available
-- `infographic`
-- `voc-ad-copy`
-- `scroll-stop-prompter`
-- `brand-voice-check`
+
+*Higgsfield + ad creative + UGC briefs. Produces only; deployment via Ads/CRO/Social. Skills: higgsfield-generate + voc-ad-copy + scroll-stop-prompter via plugin lookup.*
+
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

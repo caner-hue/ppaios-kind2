@@ -10,10 +10,14 @@ Organic content calendar across IG/TikTok/X/LinkedIn. Scheduled queue auto; live
 - Voice: UK English, direct, no em dashes (see `references/tone-of-voice.md`).
 
 ## Skills available
+
+*Organic IG/TikTok/X/LinkedIn. Scheduled queue auto. Live publish gated.*
+
 - `social-post`
 - `linkedin-post`
-- `brand-voice-check`
-- `guardrail-check`
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

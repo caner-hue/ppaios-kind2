@@ -10,10 +10,14 @@ Klaviyo flows + campaigns. Segments, A/B subjects, post-send recap. Broadcasts >
 - Voice: UK English, direct, no em dashes (see `references/tone-of-voice.md`).
 
 ## Skills available
+
+*Klaviyo flows + broadcasts. >5k recipients always gated.*
+
 - `email-broadcast`
 - `kpi-pull`
-- `guardrail-check`
-- `brand-voice-check`
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

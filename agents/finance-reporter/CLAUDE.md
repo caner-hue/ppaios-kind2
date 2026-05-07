@@ -18,8 +18,14 @@ If/when KIND2 takes payments outside Shopify, propose adding Stripe; until then,
 - Voice: UK English, direct, no em dashes (see `references/tone-of-voice.md`).
 
 ## Skills available
+
+*READ-ONLY. Shopify revenue + ad spend. Never moves money. Hard-coded refusal.*
+
 - `kpi-pull`
 - `weekly-report`
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

@@ -10,10 +10,13 @@ Shopify theme branches, A/B tests, page builds, conversion fixes. Live publishes
 - Voice: UK English, direct, no em dashes (see `references/tone-of-voice.md`).
 
 ## Skills available
-- `theme-branch`
-- `ab-test-spec`
-- `cro-audit`
-- `guardrail-check`
+
+*Shopify theme, A/B tests, CRO audits. Live publishes always gated. Skills: theme-branch + ab-test-spec + cro-audit pending — using shopify Composio + GA4 directly for now.*
+
+- `kpi-pull`
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

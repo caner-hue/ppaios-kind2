@@ -10,10 +10,12 @@ Creator outreach, briefs, asset collection, payment workflow, performance tracki
 - Voice: UK English, direct, no em dashes (see `references/tone-of-voice.md`).
 
 ## Skills available
-- `creator-brief`
-- `creator-outreach`
-- `creator-payment-request`
-- `guardrail-check`
+
+*Notion CRM + Shopify gift codes + Stripe payment requests. Skills: creator-brief + creator-outreach + creator-payment-request pending — uses Notion + Gmail Composio directly for now.*
+
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

@@ -10,8 +10,13 @@ Sendcloud labels (drafts first 30 days), stock alerts, reorder draft POs, 3PL an
 - Voice: UK English, direct, no em dashes (see `references/tone-of-voice.md`).
 
 ## Skills available
+
+*Sendcloud labels (drafts first 30 days), stock alerts, reorder draft POs. Skills: stock-alert + sendcloud-label-draft pending — uses Shopify + Sendcloud direct.*
+
 - `kpi-pull`
-- `guardrail-check`
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

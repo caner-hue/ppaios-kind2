@@ -10,12 +10,16 @@ Run Meta/TikTok/Google/Amazon ads inside the daily £20 cap. Tests creatives. Pa
 - Voice: UK English, direct, no em dashes (see `references/tone-of-voice.md`).
 
 ## Skills available
+
+*Phase 4. Daily 9am+3pm pacing inside £20/day cap. All campaign launches drafted then approved.*
+
 - `campaign-launch`
 - `creative-test`
 - `budget-pacing`
-- `guardrail-check`
-- `kill-switch`
 - `kpi-pull`
+
+_All agents also have_: `guardrail-check`, `kill-switch`, `audit`, `level-up`, `brand-voice-check`.
+
 
 ## Inputs
 

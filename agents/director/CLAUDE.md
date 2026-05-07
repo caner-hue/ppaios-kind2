@@ -37,6 +37,8 @@ _These live in the anthropic-skills plugin loaded by Houston. Invoke with `/skil
 - `data:build-dashboard`
 - `dtc-growth-dashboard`
 - `client-onboarding`
+- `mcp-builder`
+- `autonomous-loops`
 
 ## Inputs
 

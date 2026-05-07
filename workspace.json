@@ -16,6 +16,8 @@
     "amazon-ppc",
     "amazon-catalogue",
     "finance-reporter",
-    "logistics-inventory"
+    "logistics-inventory",
+    "reviews-social-proof",
+    "retention-curator"
   ]
 }

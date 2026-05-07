@@ -48,3 +48,21 @@ Banned: hype, white-room beauty-counter speak, gendered patronising ("ladies", "
 - Drop best-of customer reviews into `knowledge/raw/voc/`.
 - Drop founder long-form into `knowledge/raw/founder/`.
 - Drop product spec PDFs into `knowledge/raw/products/`.
+
+## PP Engagement (synced from PP roster)
+
+<!-- AUTO-SYNCED FROM ~/dev/ppaios-pp/references/client-roster.md — DO NOT EDIT BELOW THIS LINE; edit roster instead -->
+
+## 1. KIND2
+
+- **Status:** active
+- **Tier:** owned (PP-owned brand)
+- **Started:** 2026-05-06
+- **Window:** 90-day Phase 1 → £15k MRR target
+- **Scope:** Full DTC operation. Email/SMS revival, CRO, content, paid ads (day 30+), Amazon (day 60+), creator/reseller pipeline, customer service.
+- **Invoicing:** N/A — owned brand. P&L tracked directly via Finance Reporter.
+- **Stakeholders:** Caner (operator). PP-side: KIND2 workspace Director.
+- **Tools:** Shopify (kind2.myshopify.com via Composio), Klaviyo (4,666 subs), GA4 (`properties/290221861`), Meta Ads (`act_274969793143990`), Sendcloud (3PL).
+- **Open questions:** none — see `GROWTH-PLAN-KIND2-10X.md`.
+
+---
